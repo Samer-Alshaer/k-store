@@ -1,0 +1,11 @@
+// Import Google Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+// Import bootstrab
+@import "bootstrap/bootstrap.min.css";
+
+// import variable & globa rules & components
+@import "variable/variabels", "global rules/mixin",  "global rules/global", "components/footer" , "components/main-header";
+
+// import pages
+@import "pages/product";

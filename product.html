@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="assets/images/logo.svg">
+  <!-- boxicons icons -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>Product</title>
+</head>
+
+<body>
+  <!-- Start Main -->
+  <main>
+    <!-- begin::Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="logo" data-aos="zoom-out-right" data-aos-duration="1600" data-aos-delay="20">
+            <a class="navbar-brand" href="product.html">
+              <img src="assets/images/logo.svg" alt="logo" />
+              <span>K STORE</span>
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mr-auto" data-aos="zoom-out-left" data-aos-duration="1600" data-aos-delay="40">
+              <li class="nav-item">
+                <a class="nav-link first-link" href="#">
+                  <img src="assets/images/login.svg" alt="">
+                  Login
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="assets/images/flag.svg" alt="">
+                  English
+                  <img class="arrow" src="assets/images/Path.svg" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  USD $
+                  <img class="arrow" src="assets/images/Path.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- begin::Search bar -->
+    <section class="search-bar">
+      <div class="container">
+        <div class="row">
+          <div class="menu col-lg-4">
+            <img src="assets/images/Vector.svg" alt="">
+          </div>
+          <div class="col-lg-4 search-box" data-aos="fade-down" data-aos-duration="2500" data-aos-delay="180">
+            <input class="form-control" type="search" placeholder="Search anything" aria-label="Search">
+            <img class="s" src="assets/images/search.svg" alt="search">
+          </div>
+          <div class="col-lg-4 right-icons">
+            <img src="assets/images/Chat.svg" alt="chat">
+            <img src="assets/images/heart.svg" alt="heart">
+            <img src="assets/images/notify.svg" alt="notify">
+            <img src="assets/images/cart.svg" alt="cart">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- begin::Product Page -->
+    <section class="product-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="product-img" data-aos="fade-right" data-aos-duration="2500" data-aos-delay="180">
+              <div class="main-img">
+                <img src="assets/images/product-img.png" alt="product">
+              </div>
+              <div class="product-imgs">
+                <div class="img">
+                  <img src="assets/images/img5.svg" alt="product">
+                </div>
+                <div class="img">
+                  <img src="assets/images/img2.svg" alt="product">
+                </div>
+                <div class="img">
+                  <img src="assets/images/img3.svg" alt="product">
+                </div>
+                <div class="img active">
+                  <img src="assets/images/img4.svg" alt="product">
+                </div>
+              </div>
+              <div class="promo-code">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.5 0C8.4233 0 6.39323 0.615814 4.66652 1.76957C2.9398 2.92332 1.59399 4.5632 0.79927 6.48182C0.00454944 8.40045 -0.203386 10.5116 0.201759 12.5484C0.606904 14.5852 1.60693 16.4562 3.07538 17.9246C4.54384 19.3931 6.41476 20.3931 8.45156 20.7982C10.4884 21.2034 12.5996 20.9955 14.5182 20.2007C16.4368 19.406 18.0767 18.0602 19.2304 16.3335C20.3842 14.6068 21 12.5767 21 10.5C21 7.71523 19.8938 5.04451 17.9246 3.07538C15.9555 1.10625 13.2848 0 10.5 0ZM10.5 20C8.62108 20 6.78435 19.4428 5.22209 18.399C3.65982 17.3551 2.44218 15.8714 1.72315 14.1355C1.00412 12.3996 0.815985 10.4895 1.18254 8.64664C1.5491 6.80382 2.45389 5.11108 3.78249 3.78249C5.11109 2.45389 6.80383 1.5491 8.64665 1.18254C10.4895 0.81598 12.3996 1.00411 14.1355 1.72314C15.8714 2.44218 17.3551 3.65982 18.399 5.22208C19.4428 6.78435 20 8.62108 20 10.5C20 13.0196 18.9991 15.4359 17.2175 17.2175C15.4359 18.9991 13.0196 20 10.5 20ZM14.5 13.5C14.5 13.6978 14.4414 13.8911 14.3315 14.0556C14.2216 14.22 14.0654 14.3482 13.8827 14.4239C13.7 14.4996 13.4989 14.5194 13.3049 14.4808C13.1109 14.4422 12.9328 14.347 12.7929 14.2071C12.653 14.0673 12.5578 13.8891 12.5192 13.6951C12.4806 13.5011 12.5004 13.3 12.5761 13.1173C12.6518 12.9346 12.78 12.7784 12.9444 12.6685C13.1089 12.5586 13.3022 12.5 13.5 12.5C13.7652 12.5 14.0196 12.6054 14.2071 12.7929C14.3946 12.9804 14.5 13.2348 14.5 13.5ZM6.5 7.5C6.5 7.30222 6.55865 7.10888 6.66854 6.94443C6.77842 6.77998 6.9346 6.65181 7.11732 6.57612C7.30005 6.50043 7.50111 6.48063 7.6951 6.51921C7.88908 6.5578 8.06726 6.65304 8.20711 6.79289C8.34696 6.93275 8.4422 7.11093 8.48079 7.30491C8.51938 7.49889 8.49957 7.69996 8.42388 7.88268C8.3482 8.06541 8.22002 8.22159 8.05558 8.33147C7.89113 8.44135 7.69779 8.5 7.5 8.5C7.23479 8.5 6.98043 8.39464 6.7929 8.20711C6.60536 8.01957 6.5 7.76522 6.5 7.5ZM14.854 6.146C14.9477 6.23976 15.0004 6.36692 15.0004 6.4995C15.0004 6.63208 14.9477 6.75924 14.854 6.853L6.854 14.853C6.80788 14.9008 6.75271 14.9388 6.69171 14.9651C6.6307 14.9913 6.56509 15.005 6.49871 15.0056C6.43232 15.0062 6.36648 14.9936 6.30503 14.9684C6.24358 14.9433 6.18775 14.9061 6.14081 14.8592C6.09386 14.8123 6.05673 14.7564 6.03159 14.695C6.00645 14.6335 5.9938 14.5677 5.99438 14.5013C5.99496 14.4349 6.00875 14.3693 6.03495 14.3083C6.06116 14.2473 6.09925 14.1921 6.147 14.146L14.147 6.146C14.2408 6.05226 14.3679 5.99961 14.5005 5.99961C14.6331 5.99961 14.7602 6.05226 14.854 6.146Z"
+                    fill="#5F5E5E" />
+                </svg>
+                <input placeholder="Enter promo code" />
+                <button>Apply</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="product-info" data-aos="fade-left" data-aos-duration="2500" data-aos-delay="180">
+              <h1 class="product-name">Jlanaganvik sofae</h1>
+              <div class="reviews">
+                <img src="assets/images/star.png" alt="star">
+                <span>4.6</span>
+                <span>(139 Reviews)</span>
+              </div>
+              <div class="prices">
+                <span class="old-price">$ 5.999.000</span>
+                <span class="price">$ 1.999.000</span>
+              </div>
+              <h5 class="fw-bold fs-6 mb-3">
+                Band Color
+              </h5>
+              <h5>
+                <span class="fw-bold fs-6">Color:</span>
+                <span class="fs-6">Purple</span>
+              </h5>
+              <div class="product-imgs">
+                <div class="img active">
+                  <img src="assets/images/img1.svg" alt="product">
+                  <span class="price">$16.99</span>
+                </div>
+                <div class="img">
+                  <img src="assets/images/red-img.svg" alt="product">
+                  <span class="price">$19.99</span>
+                </div>
+                <div class="img">
+                  <img src="assets/images/yellow.svg" alt="product">
+                  <span class="price">$18.99</span>
+                </div>
+                <div class="img">
+                  <img src="assets/images/green.svg" alt="product">
+                  <span class="price">$16.99</span>
+                </div>
+                <div class="img">
+                  <img src="assets/images/gray.svg" alt="product">
+                  <span class="price">$16.99</span>
+                </div>
+                <div class="img">
+                  <img src="assets/images/rose.svg" alt="product">
+                  <span class="price">$20.00</span>
+                </div>
+                <div class="img">
+                  <img src="assets/images/red-img.svg" alt="product">
+                  <span class="price">$19.99</span>
+                </div>
+              </div>
+              <div class="product-quantity">
+                <span class="me-5">Quantity</span>
+                <button class="bx-rotate-180 me-3"><img src="assets/images/dark-arrow.svg" alt=""></button>
+                <span class="quantity">5</span>
+                <button class="ms-3"><img src="assets/images/dark-arrow.svg" alt=""></button>
+              </div>
+              <div class="product-btns">
+                <button class="btn main-btn">Add to cart
+                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.39926 22.3984C6.85228 22.3984 5.61328 23.6514 5.61328 25.1985C5.61328 26.7455 6.85228 27.9985 8.39926 27.9985C9.94623 27.9985 11.1993 26.7455 11.1993 25.1985C11.1993 23.6514 9.94623 22.3984 8.39926 22.3984Z"
+                      fill="white" />
+                    <path
+                      d="M9.94001 15.4H20.37C21.42 15.4 22.337 14.819 22.82 13.958L27.825 4.872C27.937 4.67598 28 4.44498 28 4.2C28 3.423 27.37 2.80002 26.6 2.80002H5.901L4.57097 0H0V2.80002H2.80002L7.83299 13.419L5.943 16.849C5.72597 17.255 5.59997 17.71 5.59997 18.2C5.59997 19.747 6.85302 21 8.39999 21H25.2V18.2H8.99502C8.79899 18.2 8.64504 18.0459 8.64504 17.85C8.64504 17.787 8.65902 17.731 8.68704 17.682L9.94001 15.4Z"
+                      fill="white" />
+                    <path
+                      d="M22.3993 22.3984C20.8523 22.3984 19.6133 23.6514 19.6133 25.1985C19.6133 26.7455 20.8523 27.9985 22.3993 27.9985C23.9463 27.9985 25.1993 26.7454 25.1993 25.1985C25.1993 23.6515 23.9463 22.3984 22.3993 22.3984Z"
+                      fill="white" />
+                  </svg>
+                </button>
+                <button class="btn main-btn">
+                  <img src="assets/images/blue-heart.svg" alt="">
+                </button>
+              </div>
+            </div>
+    </section>
+  </main>
+  <!-- End Main -->
+
+  <!-- Mopile Menu -->
+  <div class="mobile-menu">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      <li class="nav-item footer">
+        <a class="nav-link" href="#">
+          English
+          <img src="assets/images/dark-arrow.svg" alt="arrow">
+        </a>
+        <a class="nav-link" href="#">USD $
+          <img src="assets/images/dark-arrow.svg" alt="arrow">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- Back drop -->
+  <div class="back-drop"></div>
+  <!-- jquery js -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- AOS animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- main js -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
